@@ -63,11 +63,11 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete, isMobile }) 
                     <div className="h-full bg-accent-cyan animate-[width_2s_ease-out_forwards]" style={{width: '100%'}}></div>
                 </div>
                 <div className="space-y-2 text-sm text-accent-cyan">
-                    <p>> 正在连接华为云 (HUAWEI CLOUD)...</p>
-                    <p>> 获取用户配置文件...</p>
-                    <p>> 挂载知识库: [{genre}]</p>
-                    <p>> 配置系统 Prompt: [{persona}]</p>
-                    <p className="animate-pulse text-white">> 初始化完成</p>
+                    <p>&gt; 正在连接华为云 (HUAWEI CLOUD)...</p>
+                    <p>&gt; 获取用户配置文件...</p>
+                    <p>&gt; 挂载知识库: [{genre}]</p>
+                    <p>&gt; 配置系统 Prompt: [{persona}]</p>
+                    <p className="animate-pulse text-white">&gt; 初始化完成</p>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete, isMobile }) 
                         </div>
                         {genre === g.id && !isMobile && (
                             <div className="mt-4 pt-4 border-t border-ink-100 text-[10px] font-mono text-accent-cyan">
-                                > {g.db}
+                                &gt; {g.db}
                             </div>
                         )}
                     </button>

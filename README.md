@@ -1,2 +1,20 @@
-# MusePen
-.妙笔·文心：面向小说家的AI副驾驶，专注于跨文化起名、诗歌生成和本地化。基于React、Tailwind CSS和Gemini API构建。
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1cuB1KHrt4bl1SwgRjjm-AbEQ2RaCGpYp
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
